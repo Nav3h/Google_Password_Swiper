@@ -6,7 +6,8 @@
                 "${workspaceFolder}/**",
                 "C:\\Program Files\\OpenSSL-Win64\\include",
                 "C:\\Users\\naveh\\Downloads\\json-develop\\include",
-                "C:\\Users\\naveh\\Downloads\\SQLiteCpp-master\\SQLiteCpp-master\\include"
+                "C:\\Users\\naveh\\Downloads\\SQLiteCpp-master\\SQLiteCpp-master\\include",
+                "C:\\Users\\naveh\\Downloads\\cppcodec-master\\cppcodec-master"
             ],
             "defines": [
                 "_DEBUG",
