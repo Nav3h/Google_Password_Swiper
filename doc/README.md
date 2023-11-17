@@ -46,4 +46,4 @@ Compile the project using the following command:
 g++ -o main.exe src/KeyExtractor.cpp -I"include" -I"[path to json include]" -I"[path to cppcodec include]" -I"[path to OpenSSL include]" -I"[path to SQLiteCpp include]" -lcrypt32
 
 ### License
-This project is under MIT license
+This project is under MIT license.

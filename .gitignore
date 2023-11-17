@@ -3,8 +3,6 @@
 
 *.obj
 *.log
-*.pdb
-*.ilk
 
 .vscode/
 
@@ -14,14 +12,6 @@ obj/
 out/
 Debug/
 Release/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-*.user
-*.suo
-*.userprefs
 
 node_modules/
 vendor/
@@ -34,14 +24,4 @@ vendor/
 *.sqlite
 
 
-*.bak
-*.swp
-*.tmp
-*~
-
-*.diff
-*.patch
-*.tar.gz
-*.zip
-*.rar
 
