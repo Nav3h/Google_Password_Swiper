@@ -4,10 +4,9 @@
 #include <vector>
 #include <string>
 
-// Function to print bytes in hexadecimal format
-void printHex(const std::vector<unsigned char>& data) {
-    for (auto byte : data) {
-        std::cout << std::hex << std::setw(2) << std::setfill('0') << static_cast<int>(byte);
+void printKey(std::vector<unsigned char> key){
+    for(unsigned char chr : key){
+        std::cout << static_cast<int>(chr) << " ";
     }
     std::cout << std::endl;
 }
@@ -19,11 +18,12 @@ int main() {
         KeyExtractor keyExtractor(localStateFilePath);
         std::vector<unsigned char> key = keyExtractor.extractKey();
 
-        std::cout << "Decrypted Key: ";
-        printHex(key);
+        std::cout << "Decrypted Key:\n ";
+        printKey(key);
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
     }
 
     return 0;
+    
 }
