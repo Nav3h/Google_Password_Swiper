@@ -1,8 +1,8 @@
 # Chrome Password Decryptor 💻🔓
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Maintenance](https://img.shields.io/maintenance/yes/2023)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
 ## Overview
 This project is a C++ application designed to decrypt saved passwords from Google Chrome's 'Login Data' file, utilizing the encrypted key stored in Chrome's 'Local State' file.
