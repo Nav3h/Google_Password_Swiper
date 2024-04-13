@@ -17,9 +17,9 @@ int main() {
         std::string localStateFilePath = "C:\\Users\\naveh\\AppData\\Local\\Google\\Chrome\\User Data\\Local State";
         KeyExtractor keyExtractor(localStateFilePath);
         std::vector<unsigned char> key = keyExtractor.extractKey();
-
         std::cout << "Decrypted Key:\n ";
         printKey(key);
+        
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
     }
